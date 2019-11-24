@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+
+<head>
+    <meta charset="utf-8" />
+    <title>OcconTestCase</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h3> Welcome to panel auction..</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>User 1</h2>
+                <div class="input-group">
+                    <input #userBid [attr.data-username]="data.name"  type="number" class="form-control col-md-4"
+                        aria-label="Amount (to the nearest dollar)">
+                    <div class="input-group-append" style="float:right; ">
+                        <span class="input-group-text">$</span>
+                    </div>
+                </div><br>
+                <button id="buttons" type="button" class="btn btn-success"  (click)="signalRService.ClientToData(userBid.value,1)" >Place Bid</button>
+            </div>
+            <div class="col-md-4">
+                <h2>User 2</h2>
+                <div class="input-group">
+                    <input #user2Bid [attr.data-username]="data.name" type="number" class="form-control col-md-4"
+                        aria-label="Amount (to the nearest dollar)">
+                    <div class="input-group-append">
+                        <span class="input-group-text">$</span>
+                    </div>
+                </div><br>
+                <button id="buttons" type="button" class="btn btn-success"(click)="signalRService.ClientToData(user2Bid.value,2)">Place Bid</button>
+            </div>
+            <div class="col-md-4">
+                <h2>User 3</h2>
+                <div class="input-group">
+                    <input #user3Bid [attr.data-username]="data.name" type="number" class="form-control col-md-4"
+                        aria-label="Amount (to the nearest dollar)">
+                    <div class="input-group-append">
+                        <span class="input-group-text">$</span>
+                    </div>
+                </div><br>
+                <button id="buttons" type="button" class="btn btn-success"(click)="signalRService.ClientToData(user3Bid.value,3)">Place Bid</button>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+    <div id="container2" class="container">
+
+        <div class="row ">
+            <div class="col-md-12">
+                <div class="row">
+                    <div id="bottomText1" class="col-md-5">
+                        <br>
+                        <h2>Current Highest Bid:</h2>
+                        <h2>Current Highest Bidder:</h2>
+                        <h2>DeadLine:</h2>
+                        <h2>Balance Time:</h2>
+                    </div>
+                    <div class="row">
+
+                        <div id ="bottomText2" class="col-md-5">
+                            <br>
+                            <h2 id="HighestBid"> -{{signalRService.occonData.highestBid}} </h2>
+                            <h2 id="HighestBidder"> -{{signalRService.occonData.highestBidder}} </h2>
+                            <h2 id="Deadline">{{timeLeft}}:{{time2left}} </h2>                            
+                            <h2 id="BalanceTime">{{NowDate | date: time}}</h2>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                                               <!-- I couldn't be sure to use me the parameter at the bottom -->
+                        <div type="button" (click)='restore(),startTimer()' id ="bottomRefreshButton" class="col-md-2" style="float:right" >
+                            <a href="#" class="btn btn-info btn-lg">
+                                <span class="glyphicon glyphicon-refresh"></span> Restore
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

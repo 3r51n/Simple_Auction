@@ -1,0 +1,14 @@
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\obj\Debug\netcoreapp2.1\OcconCaseServer.csprojAssemblyReference.cache
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\obj\Debug\netcoreapp2.1\OcconCaseServer.RazorAssemblyInfo.cache
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\obj\Debug\netcoreapp2.1\OcconCaseServer.RazorAssemblyInfo.cs
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\obj\Debug\netcoreapp2.1\OcconCaseServer.AssemblyInfoInputs.cache
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\obj\Debug\netcoreapp2.1\OcconCaseServer.AssemblyInfo.cs
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\bin\Debug\netcoreapp2.1\OcconCaseServer.deps.json
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\bin\Debug\netcoreapp2.1\OcconCaseServer.runtimeconfig.json
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\bin\Debug\netcoreapp2.1\OcconCaseServer.runtimeconfig.dev.json
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\bin\Debug\netcoreapp2.1\OcconCaseServer.dll
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\bin\Debug\netcoreapp2.1\OcconCaseServer.pdb
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\obj\Debug\netcoreapp2.1\OcconCaseServer.RazorTargetAssemblyInfo.cache
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\obj\Debug\netcoreapp2.1\OcconCaseServer.dll
+C:\Users\Ersin_44\source\repos\OcconCaseServer\OcconCaseServer\obj\Debug\netcoreapp2.1\OcconCaseServer.pdb
